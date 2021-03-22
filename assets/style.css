@@ -1,0 +1,152 @@
+
+* {
+  box-sizing: border-box;
+}
+/* Create three unequal columns that floats next to each other */
+.column2 {
+  float: left;
+  padding: 0px;
+}
+
+/* Left and right column */
+.column2.side {
+  width: 25%;
+  margin-top: 55px;
+  float: left;
+}
+.column3.side2 {
+  width: 25%;
+  margin-top: 100px;
+  float: left;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+/* Middle column */
+.column2.middle {
+  width: 50%;
+  margin-top: 100px;
+  background-color: white;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2.side, .column.middle {
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.center{
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+}
+.login-center{
+    padding-top: 50px;
+}
+.login-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 100px 100px 100px;
+    background-color: white;
+    
+}
+.login{
+  text-align: center;
+  color: red;
+}
+.create-form{
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 100px 100px 100px;
+    background-color: white;
+    
+}
+.register-form{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 100px;
+    
+}
+
+.login-content {
+    margin-top: 65px;
+  margin-left: 200px;
+  padding: 50px 10px 50px 10px;
+  height: auto;
+}
+.create {
+  width: 75%;
+  margin-top: 65px;
+  height: auto;
+  background-color: white;
+}
+.createtext{
+  text-align: center;
+}
+.comments{
+  border: 2px solid #eee;
+  padding: 5px;
+  margin-top: 30px;
+}
+.error{
+  color: red;
+}
+.active{
+  background-color: green;
+  color: white;
+}
+
+.button{
+  background-color:rgb(70, 70, 230);
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
