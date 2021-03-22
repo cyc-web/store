@@ -252,7 +252,7 @@ if (isset($_POST['start'])) {
 $email= $_POST['email'];
 $scode= md5($_POST['scode']);
 
-$sql= "SELECT * FROM admin WHERE email= '$email' AND scode='$scode' ";
+$sql= "SELECT * FROM admin WHERE email= '$email' AND scode='$scode' AND status =1 ";
 $result= $conn->query($sql);
 $row= $result->fetch_array(MYSQLI_ASSOC);
 if ($row ) {
