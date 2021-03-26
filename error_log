@@ -1,0 +1,24 @@
+[22-Mar-2021 11:22:52 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/royalcod/public_html/store/conn.php on line 3
+[22-Mar-2021 11:24:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 11:27:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 11:29:43 UTC] PHP Notice:  Undefined index: scode in /home2/royalcod/public_html/store/functions.php on line 234
+[22-Mar-2021 11:36:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 11:59:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 12:02:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 16:35:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[22-Mar-2021 20:42:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[23-Mar-2021 03:56:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[23-Mar-2021 09:28:21 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 23
+[23-Mar-2021 09:28:21 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 24
+[23-Mar-2021 09:28:21 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 25
+[23-Mar-2021 18:30:24 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[24-Mar-2021 19:41:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[24-Mar-2021 23:51:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[25-Mar-2021 15:36:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[25-Mar-2021 16:45:52 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 23
+[25-Mar-2021 16:45:52 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 24
+[25-Mar-2021 16:45:52 UTC] PHP Notice:  Undefined variable: row in /home2/royalcod/public_html/store/head.php on line 25
+[25-Mar-2021 16:45:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/royalcod/public_html/store/available_items.php on line 119
+[25-Mar-2021 17:59:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[26-Mar-2021 15:35:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
+[26-Mar-2021 15:42:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home2/royalcod/public_html/store/functions.php on line 318
